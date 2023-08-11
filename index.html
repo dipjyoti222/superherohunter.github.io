@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!--link fontawesome-->
+  <script src="https://kit.fontawesome.com/14097a442a.js" crossorigin="anonymous"></script>
+
+  <!--link bootstrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+
+  <!--link css-->
+  <link rel="stylesheet" href="style.css">
+
+  <title>SuperHero Hunter</title>
+
+  
+</head>
+
+<body>
+  <div>
+    <div id="tittle">
+      <h1><b><i class="fa-sharp fa-solid fa-s"></i><i class="fa-sharp fa-solid fa-u"></i><i class="fa-sharp fa-solid fa-p"></i><i class="fa-sharp fa-solid fa-e"></i><i class="fa-sharp fa-solid fa-r"></i><i class="fa-sharp fa-solid fa-h"></i><i class="fa-sharp fa-solid fa-e"></i><i class="fa-sharp fa-solid fa-r"></i><i class="fa-sharp fa-solid fa-o"></i> <i class="fa-sharp fa-solid fa-h"></i><i class="fa-sharp fa-solid fa-u"></i><i class="fa-sharp fa-solid fa-n"></i><i class="fa-sharp fa-solid fa-t"></i><i class="fa-sharp fa-solid fa-e"></i><i class="fa-sharp fa-solid fa-r"></i> <i class="fa-sharp fa-solid fa-a"></i><i class="fa-sharp fa-solid fa-p"></i><i class="fa-sharp fa-solid fa-p"></i></b></h1>
+      <a href="favourite.html"><button>favourites</button></a>
+    </div>
+    <!--main-->
+    <div class="container">
+    
+      <!--search bar-->
+      <div id="search-bar">
+        <div><i class="fa-solid fa-magnifying-glass" id="search-icon"></i></div>
+        <input type="search" id="my-search" placeholder="Find Your Super Hero..."
+          onkeyup="showCorrespondingHeros()">
+      </div>
+
+      <!-- text div -->
+      <div class="mt-5 mb-5">
+        
+
+      </div>
+
+      <!--all searched heroes show in this div-->
+      <div id="cards-group">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- link for bootstrap javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <!-- link for my javascript code -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
